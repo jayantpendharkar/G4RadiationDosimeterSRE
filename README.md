@@ -15,8 +15,15 @@ The proposed design for the charged particle telescope uses solid state detector
 ![detgeom](https://github.com/jayantpendharkar/G4RadiationDosimeterSRE/blob/master/dosi_detgeom.png)
 
 ## What I did ...
-1. created detector geometry <br />
-   i. regulated the elements of the detector <br />
-2. analysis using iDL and R <br />
+Programming language: C++ (concepts used - encapsulation, abstraction, inheritance and polymorphism) <br />
+Scripting: shell (for running automated simulations using control parameters), and R (plotting) <br /> 
+1. created detector geometry, <br />
+2. regulated the control parameters of the simulation using shell scripting, <br /> 
+3. experimented with different physics processes and incident particles, <br />
+4. modified the user event interface to regulate the high throughput, <br />
+5. visualizing the simulation during the run time using OpenGL, <br /> 
+6. analyzed the simulated output using IDL and R, <br />
+7. Demonstrated that it is possible to identify and infer the energy of protons and alpha particles using 2 detectors sanwiched with a high absorber, and <br />
+8. Presented the results in the XXVIth Astronomical Society of India meeting (2009).
 
-
+![enedep]()
