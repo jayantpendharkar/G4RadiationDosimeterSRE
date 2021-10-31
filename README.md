@@ -18,3 +18,8 @@ The proposed design for the charged particle telescope uses solid state detector
 Markup :	1. Created Detector geometry
 		2. analysis using iDL and R
 
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
+
