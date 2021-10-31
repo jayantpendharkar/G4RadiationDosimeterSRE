@@ -15,6 +15,6 @@ The proposed design for the charged particle telescope uses solid state detector
 ![detgeom](https://github.com/jayantpendharkar/G4RadiationDosimeterSRE/blob/master/dosi_detgeom.png)
 
 ## What I did ...
-Markup : 1. Created Detector geometry
-         2. analysis using iDL and R
+Markup :	1. Created Detector geometry
+		2. analysis using iDL and R
 
