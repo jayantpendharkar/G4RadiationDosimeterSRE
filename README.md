@@ -26,4 +26,4 @@ Scripting: shell (for running automated simulations using control parameters), a
 7. Demonstrated that it is possible to identify and infer the energy of protons and alpha particles using 2 detectors sanwiched with a high absorber, and <br />
 8. Presented the results in the XXVIth Astronomical Society of India meeting (2009).
 
-![enedep]()
+![enedep](https://github.com/jayantpendharkar/G4RadiationDosimeterSRE/blob/master/RadDosi_endep.png)
