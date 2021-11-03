@@ -10,7 +10,7 @@ The hostile radiation environment outside the Earth’s cocoon is both complex a
 [Geant4](https://geant4.web.cern.ch/) (Geometry ANd Tracking) developed by a large international collaboration including CERN, ESA, and many other institutes and universities. It is based on object-orienteda analysis and design methodology by [Grady Booch [1994]](https://dl.acm.org/doi/book/10.5555/174890), and its applications range from high-energy physics, medical physics to space physics and engineering. Some of the features of Geant4 which makes it stand apart from other particle transport toolkit are facilities for handling complex geometry, wide range of physics processes included, detector response and some of simulation properties like tracking and run management as well as visualization and user interface. Geant4 offers flexibility by allowing users to select (multiple) physics models of particle interaction appropriate for a desired problem thereby taking care of all relevant interactions for all participating particles, including the secondaries, in the simulation.
 
 ## Detector geometry
-The proposed design for the charged particle telescope uses solid state detectors. The configuration consists of two Si P-I-N photodiodes (0.3 mm thick and area 4 cm2) separated by a high Z absorber (lead here, 5 mm thick) in a telescopic arrangement. Inclusion of the sandwiched lead plate allows a substantial difference in the energy of the particle incident on the photodiode below it such that the energies deposited in both the photodiodes are distinct. The main objectives behind this design is to detect individual charge particle interacting with the detectors, identify particle type from the total energy deposited in the detectors as well as to measure energy of the incident particle from difference between the energy deposited in the two detectors. The entire setup is enclosed in an aluminum box (8mm thick). 
+The proposed design for the charged particle telescope uses solid state detectors. The configuration consists of two Si P-I-N photodiodes (0.3 mm thick and area 4 cm2) separated by a high Z absorber (lead here, 5 mm thick) in a telescopic arrangement. Inclusion of the sandwiched lead plate allows a substantial difference in the energy of the particle incident on the photodiode below it such that the energies deposited in both the photodiodes are distinct. The main objectives behind this design is to detect individual charge particle interacting with the detectors, identify particle type from the total energy deposited in the detectors as well as to measure energy of the incident particle from difference between the energy deposited in the two detectors. The entire setup is enclosed in an aluminum box (8 mm thick). 
 
 ![detgeom](https://github.com/jayantpendharkar/G4RadiationDosimeterSRE/blob/master/dosi_detgeom.png)
 
@@ -18,12 +18,12 @@ The proposed design for the charged particle telescope uses solid state detector
 Programming language: C++ (concepts used - encapsulation, abstraction, inheritance and polymorphism) <br />
 Scripting: shell (for running automated simulations using control parameters), and R (plotting) <br /> 
 1. created detector geometry, <br />
-2. regulated the control parameters of the simulation using shell scripting, <br /> 
+2. regulated the control parameters of the simulation using shell script, <br /> 
 3. experimented with different physics processes and incident particles, <br />
 4. modified the user event interface to regulate the high throughput, <br />
 5. visualizing the simulation during the run time using OpenGL, <br /> 
 6. analyzed the simulated output using IDL and R, <br />
-7. Demonstrated that it is possible to identify and infer the energy of protons and alpha particles using 2 detectors sanwiched with a high absorber, and <br />
-8. Presented the results in the [Astronomical Society of India](https://www.astron-soc.in/) meeting.
+7. Demonstrated that it is possible to identify and infer the incident energy of protons and alpha particles using 2 detectors sanwiched with a high absorber, and <br />
+8. Presented results in the [Astronomical Society of India](https://www.astron-soc.in/) meeting.
 
 ![enedep](https://github.com/jayantpendharkar/G4RadiationDosimeterSRE/blob/master/RadDosi_endep.png)
