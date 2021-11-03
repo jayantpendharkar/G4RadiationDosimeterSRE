@@ -1,0 +1,47 @@
+/gps/particle proton
+/gps/energy 200 MeV
+/gps/direction 0 -1 0 
+/gps/pos/centre 0 28 0 cm
+/gps/pos/type Beam
+/gps/pos/shape Square
+/gps/pos/halfx 7.5 cm
+/gps/pos/halfy 7.5 cm
+/gps/pos/rot1 0 0 1
+/gps/pos/rot2 1 0 0
+#/gps/angtype cos
+
+# for 10 deg
+#/gps/minphi 1.39682
+#/gps/maxphi 1.39682
+#/gps/mintheta 1.39682
+#/gps/maxtheta 1.39682
+
+# for 20 deg
+#/gps/minphi 1.2222
+#/gps/maxphi 1.2222
+#/gps/mintheta 1.2222
+#/gps/maxtheta 1.2222
+
+# for 30 deg
+#/gps/minphi 1.04762
+#/gps/maxphi 1.04762
+#/gps/maxtheta 1.04762
+#/gps/mintheta 1.04762
+
+# for 40 deg
+#/gps/minphi 0.87302
+#/gps/maxphi 0.87302
+#/gps/maxtheta 0.87302
+#/gps/mintheta 0.87302
+
+# for 50 deg
+#/gps/minphi 0.69841
+#/gps/maxphi 0.69841
+#/gps/maxtheta 0.69841
+#/gps/mintheta 0.69841
+
+# for 60 deg
+#/gps/minphi 0.52381
+#/gps/maxphi 0.52381
+#/gps/mintheta 0.52381
+#/gps/maxtheta 0.52381
